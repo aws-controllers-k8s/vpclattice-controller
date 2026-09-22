@@ -1,0 +1,51 @@
+---
+annotations:
+  capabilityLevel: Basic Install
+  shortDescription: AWS VPC Lattice controller is a service controller for managing
+    VPC Lattice resources in Kubernetes
+displayName: AWS Controllers for Kubernetes - Amazon VPC Lattice
+description: |-
+  Manage Amazon VPC Lattice resources in AWS from within your Kubernetes cluster.
+
+
+  **About Amazon VPC Lattice**
+
+
+  Amazon VPC Lattice is a fully managed application networking service that you use to
+  connect, secure, and monitor the services for your applications across multiple accounts
+  and virtual private clouds (VPCs). It works with compute services such as Amazon EKS,
+  Amazon ECS, Amazon EC2, and AWS Lambda, so you can connect services running on different
+  compute types without managing your own service mesh, load balancers, or network proxies.
+
+
+  VPC Lattice gives you consistent service-to-service connectivity with request-level
+  routing, fine-grained authorization through auth policies and AWS IAM, and built-in
+  observability of requests between services. You define service networks that associate
+  your services and VPCs, and VPC Lattice handles the connectivity, health checking, and
+  traffic distribution between them.
+
+
+  **About the AWS Controllers for Kubernetes**
+
+
+  This controller is a component of the [AWS Controller for Kubernetes](https://github.com/aws/aws-controllers-k8s)
+  project.
+
+
+  **Pre-Installation Steps**
+
+
+  Please follow the following link: [Red Hat OpenShift](https://aws-controllers-k8s.github.io/community/docs/user-docs/openshift/)
+samples:
+- kind: ServiceNetwork
+  spec: '{}'
+- kind: Service
+  spec: '{}'
+- kind: TargetGroup
+  spec: '{}'
+maintainers:
+- name: "vpclattice maintainer team"
+  email: "ack-maintainers@amazon.com"
+links:
+- name: Amazon VPC Lattice
+  url: https://aws.amazon.com/vpc/lattice/

@@ -1,0 +1,8 @@
+service:
+  full_name: Amazon VPC Lattice
+  short_name: VPC Lattice
+  link: https://aws.amazon.com/vpc/lattice/
+  documentation: https://docs.aws.amazon.com/vpc-lattice/latest/ug/what-is-vpc-lattice.html
+api_versions:
+  - api_version: v1alpha1
+    status: available
