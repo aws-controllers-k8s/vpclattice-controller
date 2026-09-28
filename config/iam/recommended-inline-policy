@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VPCLatticeManagement",
+      "Effect": "Allow",
+      "Action": [
+        "vpc-lattice:*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "VPCLatticeDependencies",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeVpcs",
+        "ec2:DescribeSubnets",
+        "ec2:DescribeSecurityGroups",
+        "ec2:CreateNetworkInterface",
+        "iam:CreateServiceLinkedRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
